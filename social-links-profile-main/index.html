@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center;
+      color: rgb(35, 74, 201);
+    }
+    .attribution a { 
+      color: white;
+      margin: 3px 0px 15px 0px;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    img{
+      width: 90px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      align-items: center;
+      align-self: center;
+      background-color: hsl(0, 0%, 8%);
+    }
+
+    main{
+      background-color: hsl(0, 0%, 12%);
+      margin: 40px auto;
+      border-radius: 10px;
+      width: 300px;
+      padding: 40px;
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    div p{
+      margin: 0px 0px;
+    }
+
+    main a{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin: 8px 0px;
+      background-color: hsl(0, 0%, 20%);
+      width: 300px;
+      padding: 12px 0px;
+      border-radius: 8px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    main a:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+
+    #nome{
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
+    #nascimento{
+      font-size: 14px;
+      color: hsl(75, 94%, 57%);
+      font-weight: bold;
+      margin: 5px;
+    }
+    #prof{
+      color: white;
+      margin: 19px 0px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="">
+      <img src="assets/images/avatar-jessica.jpeg" alt="">
+      <p id="nome">Jessica Randall</p>
+      <p id="nascimento">London, United Kingdom</p>
+      <p id="prof">"Front-end developer and avid reader."</p>
+    </div>
+
+    <div>
+      <a href="">GitHub</a>
+      <a href="">Frontend Mentor</a>
+      <a href="">LinkedIn</a>
+      <a href="">Twitter</a>
+      <a href="">Instagram</a>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/LuisEduardoDev1">LuisEduardoDev1</a>
+  </div>
+</body>
+</html>
